@@ -7,10 +7,6 @@ title: ChatterBox AI - Privacy Policy
 **Last updated:** 25 October 2026
 **Applies to:** the ChatterBox AI mobile, desktop and web application (the "app").
 
-> **Before you publish this policy**, replace the single contact line in
-> [§1](#1-who-is-responsible-and-how-to-contact-us) and host this file at a public
-> URL (see [§14](#14-publishing-checklist)). Both app stores require a reachable
-> URL, not just a file in a repository.
 
 ---
 
