@@ -4,7 +4,7 @@ title: ChatterBox AI - Privacy Policy
 
 # Privacy Policy — ChatterBox AI
 
-**Last updated:** 25 October 2026
+**Last updated:** 28 October 2026
 **Applies to:** the ChatterBox AI mobile, desktop and web application (the "app").
 
 
@@ -45,10 +45,16 @@ We answer privacy requests within 30 days.
 | The text of each message you send | The AI provider whose **base URL** is configured in Settings | To generate an answer |
 | The conversation history included in the request (previous turns) | Same | The model needs context to answer a follow-up |
 | The selected model id | Same | So the provider routes to the right model |
-| Your API key | Same, as an `Authorization` header | To authenticate you |
+| Your API key (or the proxy token, when a proxy is configured) | Same, as an `Authorization` header | To authenticate you |
 
-That is the complete list. The app sends nothing to any server we operate,
-because we do not operate one.
+That is the complete list for the default build: it talks to the provider
+directly, and no server we operate is involved.
+
+**If your build is configured with the optional proxy** (the Worker in
+`server/`), the same data goes to that proxy first and is forwarded unchanged to
+the provider. The proxy does not store, log or inspect message content, keeps
+the provider key server-side, and enforces a per-IP request limit. It is a
+pass-through: nothing is retained after the response has been streamed back.
 
 **Default provider:** River AI (`https://api.river.ai/v1`). Its handling of your
 messages is governed by River's own privacy policy and terms, which you should
