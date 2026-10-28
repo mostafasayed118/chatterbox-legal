@@ -28,13 +28,7 @@ The app is published by an independent developer ("we"). There is no company
 and no data-processing agreement: you are the only party that decides which AI
 provider the app talks to.
 
-**Privacy contact:** `privacy@YOUR-DOMAIN` — replace with the address you will
-actually monitor.
-
-If you do not own a domain yet (common, and not required), a dedicated mailbox
-such as `chatterboxai.privacy@gmail.com` is perfectly acceptable and is what
-most independent apps use. Use a **dedicated** address, not your personal one:
-this address will be published on the store listing and will receive spam.
+**Privacy contact:** `al3tar4545@gmail.com`
 
 We answer privacy requests within 30 days.
 
@@ -245,15 +239,14 @@ Your answers must match §2–§4. This is the mapping:
 
 Both stores also require the privacy-policy **URL** — §14.
 
-## 14. Publishing checklist
+## 14. Publishing status
 
-1. Replace the contact line in §1 with an address you monitor.
-2. Host this file so it has a public URL. With no domain, the free option is
-   GitHub Pages: put this file in `docs/privacy.md` of the repository, enable
-   *Settings → Pages → Deploy from branch → /docs*, and the URL becomes
-   `https://<username>.github.io/<repo>/privacy.html`.
-3. Paste that URL into the Play Console listing and App Store Connect.
-4. Answer the store questionnaires using §13 verbatim.
-5. If you add analytics, crash reporting, an in-app purchase or a backend proxy
-   that logs requests, **update §2, §4 and §13 in the same release** — an
-   out-of-date Data Safety declaration is itself a policy violation.
+- **Policy URL:** <https://mostafasayed118.github.io/chatterbox-legal/>
+- **Source of truth:** `PRIVACY.md` in the app repository. The live page is
+  built from the `chatterbox-legal` repository and mirrors this document.
+- **Store listings:** paste the URL above into the Play Console listing and
+  App Store Connect.
+- **Questionnaires:** answer them using §13 verbatim.
+- **Keep it current:** if you add analytics, crash reporting, an in-app purchase
+  or a backend proxy that logs requests, update §2, §4 and §13 in the same
+  release — an out-of-date Data Safety declaration is itself a policy violation.
