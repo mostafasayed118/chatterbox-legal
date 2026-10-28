@@ -28,7 +28,7 @@ The app is published by an independent developer ("we"). There is no company
 and no data-processing agreement: you are the only party that decides which AI
 provider the app talks to.
 
-**Privacy contact:** `al3tar4545@gmail.com`
+**Privacy contact:** [al3tar4545@gmail.com](mailto:al3tar4545@gmail.com)
 
 We answer privacy requests within 30 days.
 
